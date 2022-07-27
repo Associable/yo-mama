@@ -1,0 +1,37 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Coolioing", "Ocean")
+local Tab = Window:NewTab("Ro Ghoul")
+local Section = Tab:NewSection("The script")
+
+Section:NewButton("Execute", "ButtonInfo", function()
+    loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/z4gs/scripts/master/Ro-Ghoul%20Auto%20Farm.lua")))()
+end)
+
+
+
+
+local Tab = Window:NewTab("Bedwars")
+local Section = Tab:NewSection("Yo")
+Section:NewButton("Execute", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+
+
+
+local Tab = Window:NewTab("Micheal Zombies")
+local Section = Tab:NewSection("Yo again")
+Section:NewButton("Execute", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SlamminPig/rblxgames/main/Michael's%20Zombies/MichaelsZombiesGUI"))()
+end)
+
+
+
+local Tab = Window:NewTab("Project Slayers")
+local Section = Tab:NewSection("Yo again + 2")
+Section:NewButton("Execute", "ButtonInfo", function()
+    repeat wait() until game:IsLoaded()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/RbScripts/main/lazyhub.lua"))()
+
+end)
